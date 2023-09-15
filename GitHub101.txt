@@ -1,0 +1,36 @@
+git init
+git remote add origin [link]
+
+git config --global user.name "[my name]"
+git config --global user.email "[my email]"
+
+git add .
+git rm --cache [file]
+git commit -m "[message]"
+
+================================
+
+git clone [link]
+git pull
+
+================================
+
+git branch [branch.name]
+git branch -a
+
+git checkout [branch.name]
+(remember to commit before switching)
+
+git merge [another branch name]
+
+================================
+
+git tag [tag name] [commit sha]
+git tag
+
+git revert [tag name]
+git revert [commit sha]
+
+git reset [tag name]
+git reset [commit sha]
+
